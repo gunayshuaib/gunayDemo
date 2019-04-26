@@ -1,0 +1,14 @@
+   16  git init
+   19  git status
+   20  git add README.md
+   21  git status
+   27  git remote add origin https://github.com/gunayshuaib/demo.git
+   28  git push -u origin master
+   31  git config --global user.name "Gunay Shuaib"
+   33  git config --global user.email "gunayyshuaib@gmail.com"
+   34  git config --local -l
+   35  git commit -m "First Git commit"
+   36  git push -u origin master
+   37  git status
+   40  git config --local -l
+   41  history | grep git
